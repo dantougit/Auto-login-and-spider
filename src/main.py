@@ -6,9 +6,11 @@
 import sys
 import time
 import re
+import random
+
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
-import random
+
 from spider import Spider
 
 reload(sys)
